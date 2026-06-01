@@ -1,26 +1,18 @@
-body {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-size:16px;
-    background-image: url(../images/forest.jpeg);
+ header {   background-color:rgb(255,255,255);
+     background-image: url(../images/forest.jpeg);
 
-    background-attachment: fixed;
-    background-repeat: none;
-    text-align:     center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-nav{
-    display:flex;
-    flex-wrap:wrap;
+nav {
+    background-color:blue   
+   
 }
-nav p{
-    display:flex;
-    flex-grow: 1;
-    justify-content: center;
+main {
+    background-color:rgb(255,0,0)
 }
-header{background-color:rgb 255,255,255;
+ul {background-color:rgb 255,255,255;
 }
-    header img{
+li {
 }
- 
+footer{
+    background-color:black;
+    color:white;

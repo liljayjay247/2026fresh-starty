@@ -1,11 +1,11 @@
 /*css*/
 
-     {
+    main {
             font-family: Arial, sans-serif;
             margin: 20px;
             padding: 0px;
-            box-sizing:border-box;
-            background-image:url(../images/forest.jpeg);
+            box-sizing:auto;
+            background-image:url(../images/theater.jpg);
             background-size:cover;
             background-attachment:fixed;
             background-repeat:none;
@@ -13,6 +13,8 @@
         nav {
             display:flex;
             flex-wrap:wrap;
+            border:1x;
+        
         }
         nav p {
             display: flex;
@@ -21,14 +23,15 @@
 
         }
         header {
-            background-color:rgb(255,255,255);body,headermain
-        
+            background-color:rgb(97, 28, 247)body,headermain;
+        text-align:center;
+        color:blue;
         }
-        header-image{img src="fetch.jpg" alt="Robin Hood" height="200px";
+        header{img src="url(../images/robin.jpg)" alt="Robin Hood" height="200px";
     }
 .container{display:grid;
 grid-template-columns:repeat(8,1fr);
 gap:1rem;
-padding 1rem};
-}background-color:white;
-border-radious
+padding 1rem;
+background-color:white;
+border-radious}

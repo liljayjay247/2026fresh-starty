@@ -7,5 +7,35 @@ header{background-color:red;
     color:white;
     padding:5px;
     width:3.0em;
-margin:auto;
+    margin:auto;
+
+
+
+
+
+
+
+
+
+
+
+
+.toggle-button poisitioin: absolute;
+    top:10px;
+    right:10px;
+    width:30px;
+    height:30px;
+    background-color:black;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+@media screen and (max-width:600px){
+    .toggle-button{
+        display:block;
+    }
+    .navbar{
+        display:none;
+        flex-direction: column;
+    }
 }

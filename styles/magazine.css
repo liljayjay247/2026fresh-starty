@@ -1,6 +1,5 @@
 /*css*/ 
-main{
-    margin: 0;
+    main{
     padding: 0;
     box-sizing: border-box;
 }
@@ -42,21 +41,19 @@ body {
     z-index: 2;
 }
 
-.overlay h1 {
+.overlay h2{
     font-size: 20rem;
     font-weight: 300;
     line-height: 0.9;
     color: rgba(0,0,0,0.9);
     text-transform: uppercase;
 }
-
-.content {
+.overlay
     max-width: 1000px;
     margin: 20px auto;
     background: white;
     padding: 20px;
 }
-
 .content p {
     padding: 10px;
     line-height: 1.7;

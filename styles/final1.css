@@ -1,15 +1,11 @@
-main{
-    display:block;
-}
-header{background-color:red;
-    text-align:left;
-    font-size:2.5em;
-    color:white;
-    padding:5px;
-    width:3.0em;
-    margin:auto;
-
-
+/*css/*
+ .box {
+     padding: 20px;
+     text-align: center;
+     background-color: #f2f2f2;
+     border: 1px solid #ddd;
+     margin: 10px 0;
+ }
 
 
 

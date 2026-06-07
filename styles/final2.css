@@ -1,8 +1,5 @@
 /*css/*
 
-Cheapinc <cheapinc80@gmail.com>
-5:42 AM (12 minutes ago)
-to me
 
 *{
     margin:0;
@@ -36,7 +33,7 @@ body{
 }
 
 .side-image img{
-    width:100%;
+    width:25%;
     display:block;
 }
 
@@ -60,7 +57,7 @@ body{
 }
 
 .card img{
-    width:100%;
+    width: 25%;
     display:block;
 }
 
@@ -93,7 +90,7 @@ body{
 }
 
 .hero-image img{
-    width:100%;
+    width: 25%;
     display:block;
 }
 
@@ -101,16 +98,16 @@ body{
 
 @media(max-width:768px){
 
-    .top-grid{
-        grid-template-columns:1fr;
+ .top-grid{
+        grid:template-columns 2px 1fr;
     }
 
-    .middle-grid{
-        grid-template-columns:1fr;
+ .middle-grid{
+        grid: template columns 2px 1fr;
     }
 
-    .features{
-        grid-template-columns:1fr;
+ .features{
+        grid: template columns 2px 1fr;
     }
 
 }

@@ -35,7 +35,8 @@ section{
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #ccc;
-    clear: both;
+    box-sizing: border-box;
+    /* clear: both; */
     font-family: 'Courier New', Courier, monospace;color: #1e06f0;
 
 }

@@ -8,6 +8,9 @@
 }
 
 body{
+    width:200px
+    font-size:100em
+    color:blue;
     font-family:Arial, sans-serif;
     background:#f2f2f2;
     padding:20px;
@@ -28,16 +31,7 @@ body{
     padding:20px;
 }
 
-.article{
-    line-height:1.8;
-}
 
-.side-image img{
-    width:25%;
-    display:block;
-}
-
-/* MIDDLE */
 
 .middle-grid{
     display:grid;
@@ -109,5 +103,6 @@ body{
  .features{
         grid: template columns 2px 1fr;
     }
+
 
 }

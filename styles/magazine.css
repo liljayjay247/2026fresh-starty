@@ -1,5 +1,5 @@
 /*css*/ 
-    main{
+main{
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
 
 .hero {
     position: relative;
-    max-width: 1000px;
+    max-width: auto;
     max-height: auto;
     margin: auto;
     background: white;
@@ -20,6 +20,7 @@ body {
 }
 
 .top-bar {
+    font-style:italic;
     background:red; 
     border:10px solid black;
     color: white;
@@ -30,25 +31,25 @@ body {
 }
 
 .hero img {
-    width: 100%;
+    width: 75%;
     display: block;
 }
 
 .overlay {
-    position: absolute;
+    position: center;
     top: 60px;
     left: 40px;
     z-index: 2;
 }
 
 .overlay h2{
-    font-size: 20rem;
-    font-weight: 300;
+    font-size: 20em;
+    font-weight: 30em;
     line-height: 0.9;
     color: rgba(0,0,0,0.9);
     text-transform: uppercase;
 }
-.overlay
+.overlay{
     max-width: 1000px;
     margin: 20px auto;
     background: white;

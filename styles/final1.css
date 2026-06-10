@@ -1,11 +1,19 @@
 /*css/*
- .box {
+
+box {
      padding: 20px;
-     text-align: center;
-     background-color: #f2f2f2;
+     text-align: right;
+     background-color: white;
      border: 1px solid #ddd;
-     margin: 10px 0;
+     margin: 10px;
  }
+box {
+    padding:20px; 
+    text-align:left;
+    background-color:white;
+    border:1px;
+    margin:10px;
+}
 
 
 
